@@ -1,22 +1,21 @@
 .navbar-container {
     width: 100%;
-    border-bottom: 2px solid #333; /* Full-width dark gray bottom border */
+    border-bottom: 2px solid #bbbbbb; 
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%; /* Set navbar width to 3/4 of the viewport */
-    margin: 0 auto; /* Center the navbar content */
+    width: 50%; 
+    margin: 0 auto; 
     padding: 1rem 0;
 }
 
 /* Left Side - Name Link */
 .navbar-left .navbar-name {
-    font-weight: bold;
     color: #333;
-    font-size: 1.5rem;
+    font-size: 1.75rem; /* Increased font size */
     text-decoration: none;
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
@@ -24,7 +23,7 @@
 /* Right Side - Links */
 .navbar-right .navbar-link {
     margin-left: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.15rem; /* Increased font size */
     color: #555;
     text-decoration: none;
     transition: color 0.3s ease, text-decoration 0.3s ease;
@@ -33,6 +32,6 @@
 /* Hover Effects with Underline */
 .navbar-left .navbar-name:hover,
 .navbar-right .navbar-link:hover {
-    color: #000; /* Darken on hover */
-    text-decoration: underline; /* Add underline on hover */
+    color: #000; 
+    text-decoration: underline; 
 }
