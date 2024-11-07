@@ -1,0 +1,61 @@
+/* WorldMap.css */
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .map-wrapper {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 2 / 1;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  .hovered-country {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .visited-counter {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .zoom-button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px; /* Added margin for spacing from counter */
+  }
+  
+  .zoom-button {
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    outline: none;
+  }
+  

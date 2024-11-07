@@ -1,0 +1,89 @@
+.minesweeper-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .minesweeper-container {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .minesweeper-row {
+    display: flex;
+  }
+  
+  .minesweeper-cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #999;
+    background-color: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+  }
+  
+  .minesweeper-cell.revealed {
+    background-color: #e0e0e0;
+    cursor: default;
+  }
+  
+  .minesweeper-cell:hover {
+    background-color: #ccc;
+  }
+  
+  .minesweeper-cell.revealed:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .minesweeper-restart-button {
+    margin-top: 20px; /* Add more space between the board and button */
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Aeonik', sans-serif;
+  }
+  
+  .minesweeper-info {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  
+  .minesweeper-status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+
+  }
+  
+  /* Number colors */
+  .minesweeper-cell.number-1 {
+    color: blue;
+  }
+  
+  .minesweeper-cell.number-2 {
+    color: green;
+  }
+  
+  .minesweeper-cell.number-3 {
+    color: red;
+  }
+  
+  .minesweeper-cell.number-4 {
+    color: purple;
+  }
+  
+  .minesweeper-cell.number-5 {
+    color: rgb(222, 149, 14);
+  }
+  
+  .minesweeper-cell.number-6 {
+    color: rgb(248, 14, 209);
+  }
+  

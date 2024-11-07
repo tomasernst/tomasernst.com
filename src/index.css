@@ -1,0 +1,48 @@
+/* Regular weight */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold weight */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Light weight */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Italic variations if you need them */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-RegularItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-BoldItalic.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Apply Aeonik font to the component */
+.bucket-list {
+  font-family: 'Aeonik', sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Aeonik', sans-serif;
+}

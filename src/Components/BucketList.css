@@ -1,0 +1,50 @@
+/* BucketList.css */
+
+.bucket-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bucket-list-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .bucket-list-items {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .bucket-list-item {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .bucket-list-item.completed {
+    color: #4CAF50;
+    background-color: #e0f2f1;
+    text-decoration: line-through;
+  }
+  
+  .bucket-list-item:not(.completed) {
+    color: #ff5722;
+    background-color: #ffe0b2;
+  }
+  
+  .bucket-list-item .number {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
