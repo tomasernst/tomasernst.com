@@ -1,7 +1,3 @@
-// import WorldMap from './Components/WorldMap';
-// import BucketList from './Components/BucketList';
-import Minesweeper from './Components/Minesweeper/Minesweeper';
-
 import './App.css'
 
 function App() {
@@ -19,7 +15,6 @@ function App() {
       <p>
         Hey, this is the third paragraph!!
       </p>
-      <Minesweeper/>
     </>
   );
 }
