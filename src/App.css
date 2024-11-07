@@ -15,3 +15,13 @@
   font-size: 1.1rem; 
   line-height: 1.6; 
 }
+
+.portrait {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Circle shape */
+  object-fit: cover; /* Ensures image fills the circle */
+  float: right; /* Positions image to the right within the paragraph */
+  margin-left: 1rem; /* Space between image and text */
+  margin-bottom: 1rem; /* Space below the image */
+}
