@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left .navbar-name {
+    font-weight: bold;
+    color: #333; /* Dark gray color */
+}
+
+.navbar-right .navbar-link {
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    color: #555; /* Medium gray for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-right .navbar-link:hover {
+    color: #000; /* Darken color on hover */
+}
