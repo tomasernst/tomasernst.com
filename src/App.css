@@ -7,7 +7,7 @@
 }
 
 .app-container p {
-  max-width: 800px;
+  max-width: 100%;
   width: 100%;
   text-align: left;
   margin: 0.5rem 0;
